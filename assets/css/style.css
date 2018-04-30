@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
+
+body{
+    font-family: 'Abril Fatface', cursive !important;
+}
+
+/* Use shimmer effect code found online */
+.shimmer {
+    display: inline-block;
+    color:white;
+    
+    background: #acacac -webkit-gradient(linear, 100% 0, 0 0, from(#acacac), color-stop(0.5, #ffffff), to(#acacac));
+    
+    background-position: -4rem top; 
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation-name: shimmer;
+    -webkit-animation-duration: 2.2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-background-size: 4rem 100%; 
+    
+  }
+  
+  @-webkit-keyframes shimmer {
+      0% {
+          background-position: -4rem top; 
+      }
+  
+      70% {
+          background-position: 18.5rem top; 
+      }
+  
+      100% {
+          background-position: 18.5rem top; 
+      }
+  }
+
+.crystal-image{
+    width: 250px;
+    height: 250px;
+}
+
+.containercolor {
+    background-color:#fff;
+    opacity: 0.95;
+  }
