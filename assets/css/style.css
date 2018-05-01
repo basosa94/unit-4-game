@@ -36,12 +36,15 @@ body{
       }
   }
 
+  
 .crystal-image{
-    width: 250px;
-    height: 250px;
+    width: 25%;
+    height: auto;
 }
 
+
 .containercolor {
-    background-color:#fff;
+    background-color:rgb(119, 121, 201);
     opacity: 0.95;
   }
+
